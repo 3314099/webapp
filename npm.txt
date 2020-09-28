@@ -45,6 +45,13 @@ npm i -D webpack-dev-server concurrently
 
 /// удалил на облаке package-lock.json, в итоге конфликт
 конфликт не смог смержить, создал из html нову ветку css,
+смержил с новой ветки с мастером
+
+с мастера перешел на новую ветку sass, продолжаю...
+
+npm i -D postcss-loader sass-loader node-sass css-loader mini-css-extract-plugin
+npm i -D autoprefixer // "autoprefixer": должен быть "<10.0.0"
+npm i -D cssnano
 
 
 
