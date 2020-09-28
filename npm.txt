@@ -1,3 +1,8 @@
+// cls - очищает консоль
+// ctrl+C - останавливает сервер
+
+
+
 npm git init
 git remote add origin https://3314099@bitbucket.org/3314099/webapp.git
 
@@ -5,7 +10,7 @@ git remote add origin https://3314099@bitbucket.org/3314099/webapp.git
 .idea/*
 node_modules/
 dist/
-package.lock.json
+package-lock.json
 //
 
 git add .gitignore
@@ -20,4 +25,26 @@ git commit -m "first commit"
 git push -u origin master
 
 npm i -D webpack webpack-cli
+git commit -m "webpack"
+git push origin master
+
+git checkout -b html
+npm i -D babel-loader @babel/core @babel/preset-env
+
+echo module.exports={} >> webpack.config.js // создаем файл webpack.config.js
+с содержимым module.exports={}
+
+mkdir src // создаем папку src
+touch ".babelrc"
+code.  // открываем проект в редакторе
+
+npm i -D babel-minify-webpack-plugin
+
+npm i -D html-webpack-plugin html-loader
+npm i -D webpack-dev-server concurrently
+
+/// удалил на облаке package-lock.json, в итоге конфликт
+конфликт не смог смержить, создал из html нову ветку css,
+
+
 
