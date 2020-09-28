@@ -12,5 +12,9 @@
   },
   "author": "Andrey Petrov <3314099@mail.ru>",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/3314099/webapp#readme"
+  "homepage": "https://bitbucket.org/3314099/webapp#readme",
+  "devDependencies": {
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
 }

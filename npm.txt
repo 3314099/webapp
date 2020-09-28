@@ -1,4 +1,23 @@
 npm git init
 git remote add origin https://3314099@bitbucket.org/3314099/webapp.git
+
+//.gitignore
+.idea/*
+node_modules/
+dist/
+package.lock.json
+//
+
+git add .gitignore
+
+git add .
+git status
+
 npm init
+
+git add .
+git commit -m "first commit"
+git push -u origin master
+
+npm i -D webpack webpack-cli
 
